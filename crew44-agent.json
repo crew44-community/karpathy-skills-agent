@@ -1,0 +1,39 @@
+{
+  "schema_version": "crew44.agent.v1",
+  "name": "Karpathy Skills",
+  "version": "1.0.0",
+  "description": "A Crew44 agent packaged from Andrej Karpathy-style skills for writing and reasoning.",
+  "author": "multica-ai",
+  "tags": [
+    "writing",
+    "reasoning"
+  ],
+  "suggested_runtime": "claude",
+  "source_type": "upstream-wrapper",
+  "upstream": {
+    "repo_url": "https://github.com/multica-ai/andrej-karpathy-skills",
+    "commit": "2c606141936f1eeef17fa3043a72095b4765b9c2",
+    "path": "upstream",
+    "imported_at": "2026-05-29T09:54:41Z"
+  },
+  "skills": [
+    {
+      "name": "karpathy-guidelines",
+      "path": "upstream/skills/karpathy-guidelines/SKILL.md"
+    }
+  ],
+  "payload": {
+    "include": [
+      "AGENT.md",
+      "crew44-agent.json",
+      "upstream/skills/karpathy-guidelines/SKILL.md",
+      "upstream/**"
+    ],
+    "exclude": [
+      ".git/**",
+      "**/.git/**",
+      "**/node_modules/**",
+      "**/.DS_Store"
+    ]
+  }
+}
