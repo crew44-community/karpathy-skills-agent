@@ -2,14 +2,16 @@
 
 - Source: https://github.com/multica-ai/andrej-karpathy-skills
 - Version: 1.0.0
-- Upstream commit: HEAD
-- Imported at: 2026-05-29T09:54:41Z
+- Upstream commit: 2c606141936f1eeef17fa3043a72095b4765b9c2
+- Imported at: 2026-06-01T06:39:35Z
 - Layout: upstream-wrapper
 
 ## Detected skills (1)
 - karpathy-guidelines — `upstream/skills/karpathy-guidelines/SKILL.md`
 
-## Files included in the install payload (9)
+## Files included in the install payload (11)
+- AGENT.md
+- crew44-agent.json
 - upstream/.claude-plugin/marketplace.json
 - upstream/.claude-plugin/plugin.json
 - upstream/.cursor/rules/karpathy-guidelines.mdc
@@ -20,7 +22,8 @@
 - upstream/README.zh.md
 - upstream/skills/karpathy-guidelines/SKILL.md
 
-## Files filtered out by the importer (0)
+## Files filtered out by the importer (1)
+- IMPORT_REPORT.md
 
 ## Human review
 
