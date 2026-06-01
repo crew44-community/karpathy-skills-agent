@@ -3,7 +3,7 @@
 - Source: https://github.com/multica-ai/andrej-karpathy-skills
 - Version: 1.0.0
 - Upstream commit: 2c606141936f1eeef17fa3043a72095b4765b9c2
-- Imported at: 2026-06-01T06:57:02Z
+- Imported at: 2026-06-01T08:47:31Z
 - Layout: upstream-wrapper
 
 ## Detected skills (1)
@@ -30,8 +30,8 @@
 
 Before publishing:
 
-1. Read `INSTRUCTIONS.md` and rewrite the placeholder role paragraph so the
-   agent has a concrete job description.
+1. Read `INSTRUCTIONS.md` and confirm the generated package summary, role,
+   and source-material guidance fit this upstream repo.
 2. Confirm the detected `skills[]` actually point at real `SKILL.md`
    files (and remove any that are stale or empty).
 3. Trim `crew44-agent.json` payload globs to keep the installed payload
