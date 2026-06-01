@@ -14,7 +14,7 @@
     "repo_url": "https://github.com/multica-ai/andrej-karpathy-skills",
     "commit": "2c606141936f1eeef17fa3043a72095b4765b9c2",
     "path": "upstream",
-    "imported_at": "2026-06-01T06:39:35Z"
+    "imported_at": "2026-06-01T06:57:02Z"
   },
   "skills": [
     {
@@ -24,7 +24,7 @@
   ],
   "payload": {
     "include": [
-      "AGENT.md",
+      "INSTRUCTIONS.md",
       "crew44-agent.json",
       "upstream/skills/karpathy-guidelines/SKILL.md",
       "upstream/**"
