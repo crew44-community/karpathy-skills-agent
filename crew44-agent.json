@@ -2,11 +2,12 @@
   "schema_version": "crew44.agent.v1",
   "name": "Karpathy Skills",
   "version": "1.0.0",
-  "description": "A Crew44 agent packaged from Andrej Karpathy-style skills for writing and reasoning.",
+  "description": "A coding-discipline agent based on Andrej Karpathy's observations of how LLMs fail at code. Enforces four principles — think before coding, simplicity first, surgical changes, and goal-driven execution — to keep diffs minimal, surface assumptions and tradeoffs, and avoid overengineering.",
   "author": "multica-ai",
   "tags": [
-    "writing",
-    "reasoning"
+    "coding",
+    "code-review",
+    "best-practices"
   ],
   "suggested_runtime": "claude",
   "source_type": "upstream-wrapper",
