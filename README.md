@@ -14,7 +14,6 @@ tab.
 - `INSTRUCTIONS.md` — the agent's entrypoint and role.
 - `crew44-agent.json` — the manifest the Crew44 app reads to install this agent.
 - `upstream/` — the vendored upstream project, pinned to a commit.
-- `IMPORT_REPORT.md` — what was imported and the exact pinned commit.
 
 ## Skills
 - `karpathy-guidelines`
@@ -23,4 +22,4 @@ tab.
 
 Packaged from [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills). The upstream content
 under `upstream/` is reference material and is not modified at
-runtime; see `IMPORT_REPORT.md` for the pinned commit.
+runtime.
